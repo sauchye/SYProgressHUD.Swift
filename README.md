@@ -2,7 +2,7 @@
 
 ### About :SYProgressHUD.Swift
 
-Base in  MBProgressHUD OC in [SYHUDView][https://github.com/sauchye/SYHUDView]
+Base in  MBProgressHUD OC in [SYProgressHUD](https://github.com/sauchye/SYHUDView)
 
 ### Example, easy use:
 
@@ -13,7 +13,7 @@ Base in  MBProgressHUD OC in [SYHUDView][https://github.com/sauchye/SYHUDView]
 SYProgressHUD.showLoadingAddView(view: view)
 
 //custom imageView
-        SYProgressHUD.showCustomView(icon: "nav_back_icon", text: "just test")
+SYProgressHUD.showCustomView(icon: "nav_back_icon", text: "just test")
 
 //text info
 SYProgressHUD.showSuccessHUD(text: "success info")

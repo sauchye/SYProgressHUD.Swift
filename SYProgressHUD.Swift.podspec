@@ -9,6 +9,6 @@ s.author             = { "sauchye" => "sauchyer@gmail.com" }
 s.platform     = :ios, "8.0"
 s.swift_version = '4.2'
 s.source       = { :git => "https://github.com/sauchye/SYProgressHUD.Swift.git", :tag => s.version }
-s.source_files  = 'SYProgressHUD/**/*.swift'
+s.source_files  = '/SYProgressHUD.Swift/SYProgressHUD/**/*.swift'
 
 end
