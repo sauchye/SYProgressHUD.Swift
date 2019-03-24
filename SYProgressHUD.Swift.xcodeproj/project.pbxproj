@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02C441782247823500AEE4A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C441772247823500AEE4A3 /* AppDelegate.swift */; };
+		02C4417A2247823500AEE4A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C441792247823500AEE4A3 /* ViewController.swift */; };
+		02C4417D2247823500AEE4A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02C4417B2247823500AEE4A3 /* Main.storyboard */; };
+		02C441802247823500AEE4A3 /* SYProgressHUD_Swift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 02C4417E2247823500AEE4A3 /* SYProgressHUD_Swift.xcdatamodeld */; };
+		02C441822247823600AEE4A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02C441812247823600AEE4A3 /* Assets.xcassets */; };
+		02C441852247823600AEE4A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02C441832247823600AEE4A3 /* LaunchScreen.storyboard */; };
+		02C441902247823600AEE4A3 /* SYProgressHUD_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C4418F2247823600AEE4A3 /* SYProgressHUD_SwiftTests.swift */; };
+		02C4419B2247823600AEE4A3 /* SYProgressHUD_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C4419A2247823600AEE4A3 /* SYProgressHUD_SwiftUITests.swift */; };
+		02C441AA2247832C00AEE4A3 /* SYProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C441A92247832C00AEE4A3 /* SYProgressHUD.swift */; };
+		02C441B722479BC600AEE4A3 /* syhud_error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02C441B622479BC600AEE4A3 /* syhud_error@2x.png */; };
+		02C441B922479BD600AEE4A3 /* syhud_success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02C441B822479BD600AEE4A3 /* syhud_success@2x.png */; };
+		02C441BB22479BF100AEE4A3 /* syhud_info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02C441BA22479BF100AEE4A3 /* syhud_info@2x.png */; };
+		46DBDE1D9AE603A0433CD19D /* Pods_SYProgressHUD_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D32936811B14483CCD6CC8 /* Pods_SYProgressHUD_Swift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02C4418C2247823600AEE4A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02C4416C2247823500AEE4A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02C441732247823500AEE4A3;
+			remoteInfo = SYProgressHUD.Swift;
+		};
+		02C441972247823600AEE4A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02C4416C2247823500AEE4A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02C441732247823500AEE4A3;
+			remoteInfo = SYProgressHUD.Swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02C441742247823500AEE4A3 /* SYProgressHUD.Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYProgressHUD.Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02C441772247823500AEE4A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		02C441792247823500AEE4A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		02C4417C2247823500AEE4A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02C4417F2247823500AEE4A3 /* SYProgressHUD_Swift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SYProgressHUD_Swift.xcdatamodel; sourceTree = "<group>"; };
+		02C441812247823600AEE4A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02C441842247823600AEE4A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02C441862247823600AEE4A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02C4418B2247823600AEE4A3 /* SYProgressHUD.SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYProgressHUD.SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02C4418F2247823600AEE4A3 /* SYProgressHUD_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SYProgressHUD_SwiftTests.swift; sourceTree = "<group>"; };
+		02C441912247823600AEE4A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02C441962247823600AEE4A3 /* SYProgressHUD.SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYProgressHUD.SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02C4419A2247823600AEE4A3 /* SYProgressHUD_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SYProgressHUD_SwiftUITests.swift; sourceTree = "<group>"; };
+		02C4419C2247823600AEE4A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02C441A92247832C00AEE4A3 /* SYProgressHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SYProgressHUD.swift; sourceTree = "<group>"; };
+		02C441B622479BC600AEE4A3 /* syhud_error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "syhud_error@2x.png"; sourceTree = "<group>"; };
+		02C441B822479BD600AEE4A3 /* syhud_success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "syhud_success@2x.png"; sourceTree = "<group>"; };
+		02C441BA22479BF100AEE4A3 /* syhud_info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "syhud_info@2x.png"; sourceTree = "<group>"; };
+		B6D32936811B14483CCD6CC8 /* Pods_SYProgressHUD_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SYProgressHUD_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3B531B1E382B32CF540E16F /* Pods-SYProgressHUD.Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYProgressHUD.Swift.debug.xcconfig"; path = "Target Support Files/Pods-SYProgressHUD.Swift/Pods-SYProgressHUD.Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		F3A65DB126949B7F2256C4FA /* Pods-SYProgressHUD.Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYProgressHUD.Swift.release.xcconfig"; path = "Target Support Files/Pods-SYProgressHUD.Swift/Pods-SYProgressHUD.Swift.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02C441712247823500AEE4A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46DBDE1D9AE603A0433CD19D /* Pods_SYProgressHUD_Swift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02C441882247823600AEE4A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02C441932247823600AEE4A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02C4416B2247823500AEE4A3 = {
+			isa = PBXGroup;
+			children = (
+				02C441762247823500AEE4A3 /* SYProgressHUD.Swift */,
+				02C4418E2247823600AEE4A3 /* SYProgressHUD.SwiftTests */,
+				02C441992247823600AEE4A3 /* SYProgressHUD.SwiftUITests */,
+				02C441752247823500AEE4A3 /* Products */,
+				8665046495EC949CEF6C0CDB /* Pods */,
+				C5B4707AB5B828502E169CFE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		02C441752247823500AEE4A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02C441742247823500AEE4A3 /* SYProgressHUD.Swift.app */,
+				02C4418B2247823600AEE4A3 /* SYProgressHUD.SwiftTests.xctest */,
+				02C441962247823600AEE4A3 /* SYProgressHUD.SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02C441762247823500AEE4A3 /* SYProgressHUD.Swift */ = {
+			isa = PBXGroup;
+			children = (
+				02C441A8224782E100AEE4A3 /* SYProgressHUD */,
+				02C441772247823500AEE4A3 /* AppDelegate.swift */,
+				02C441792247823500AEE4A3 /* ViewController.swift */,
+				02C4417B2247823500AEE4A3 /* Main.storyboard */,
+				02C441812247823600AEE4A3 /* Assets.xcassets */,
+				02C441832247823600AEE4A3 /* LaunchScreen.storyboard */,
+				02C441862247823600AEE4A3 /* Info.plist */,
+				02C4417E2247823500AEE4A3 /* SYProgressHUD_Swift.xcdatamodeld */,
+			);
+			path = SYProgressHUD.Swift;
+			sourceTree = "<group>";
+		};
+		02C4418E2247823600AEE4A3 /* SYProgressHUD.SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				02C4418F2247823600AEE4A3 /* SYProgressHUD_SwiftTests.swift */,
+				02C441912247823600AEE4A3 /* Info.plist */,
+			);
+			path = SYProgressHUD.SwiftTests;
+			sourceTree = "<group>";
+		};
+		02C441992247823600AEE4A3 /* SYProgressHUD.SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				02C4419A2247823600AEE4A3 /* SYProgressHUD_SwiftUITests.swift */,
+				02C4419C2247823600AEE4A3 /* Info.plist */,
+			);
+			path = SYProgressHUD.SwiftUITests;
+			sourceTree = "<group>";
+		};
+		02C441A8224782E100AEE4A3 /* SYProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				02C441AB2247908C00AEE4A3 /* Resource */,
+				02C441A92247832C00AEE4A3 /* SYProgressHUD.swift */,
+			);
+			path = SYProgressHUD;
+			sourceTree = "<group>";
+		};
+		02C441AB2247908C00AEE4A3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				02C441BA22479BF100AEE4A3 /* syhud_info@2x.png */,
+				02C441B822479BD600AEE4A3 /* syhud_success@2x.png */,
+				02C441B622479BC600AEE4A3 /* syhud_error@2x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		8665046495EC949CEF6C0CDB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3B531B1E382B32CF540E16F /* Pods-SYProgressHUD.Swift.debug.xcconfig */,
+				F3A65DB126949B7F2256C4FA /* Pods-SYProgressHUD.Swift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C5B4707AB5B828502E169CFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6D32936811B14483CCD6CC8 /* Pods_SYProgressHUD_Swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02C441732247823500AEE4A3 /* SYProgressHUD.Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02C4419F2247823600AEE4A3 /* Build configuration list for PBXNativeTarget "SYProgressHUD.Swift" */;
+			buildPhases = (
+				B4729817CF0EC1D9D351825B /* [CP] Check Pods Manifest.lock */,
+				02C441702247823500AEE4A3 /* Sources */,
+				02C441712247823500AEE4A3 /* Frameworks */,
+				02C441722247823500AEE4A3 /* Resources */,
+				D0C80180DB291C1F7421CE16 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SYProgressHUD.Swift;
+			productName = SYProgressHUD.Swift;
+			productReference = 02C441742247823500AEE4A3 /* SYProgressHUD.Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02C4418A2247823600AEE4A3 /* SYProgressHUD.SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02C441A22247823600AEE4A3 /* Build configuration list for PBXNativeTarget "SYProgressHUD.SwiftTests" */;
+			buildPhases = (
+				02C441872247823600AEE4A3 /* Sources */,
+				02C441882247823600AEE4A3 /* Frameworks */,
+				02C441892247823600AEE4A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02C4418D2247823600AEE4A3 /* PBXTargetDependency */,
+			);
+			name = SYProgressHUD.SwiftTests;
+			productName = SYProgressHUD.SwiftTests;
+			productReference = 02C4418B2247823600AEE4A3 /* SYProgressHUD.SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		02C441952247823600AEE4A3 /* SYProgressHUD.SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02C441A52247823600AEE4A3 /* Build configuration list for PBXNativeTarget "SYProgressHUD.SwiftUITests" */;
+			buildPhases = (
+				02C441922247823600AEE4A3 /* Sources */,
+				02C441932247823600AEE4A3 /* Frameworks */,
+				02C441942247823600AEE4A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02C441982247823600AEE4A3 /* PBXTargetDependency */,
+			);
+			name = SYProgressHUD.SwiftUITests;
+			productName = SYProgressHUD.SwiftUITests;
+			productReference = 02C441962247823600AEE4A3 /* SYProgressHUD.SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02C4416C2247823500AEE4A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = sauchye;
+				TargetAttributes = {
+					02C441732247823500AEE4A3 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					02C4418A2247823600AEE4A3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 02C441732247823500AEE4A3;
+					};
+					02C441952247823600AEE4A3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 02C441732247823500AEE4A3;
+					};
+				};
+			};
+			buildConfigurationList = 02C4416F2247823500AEE4A3 /* Build configuration list for PBXProject "SYProgressHUD.Swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02C4416B2247823500AEE4A3;
+			productRefGroup = 02C441752247823500AEE4A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02C441732247823500AEE4A3 /* SYProgressHUD.Swift */,
+				02C4418A2247823600AEE4A3 /* SYProgressHUD.SwiftTests */,
+				02C441952247823600AEE4A3 /* SYProgressHUD.SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02C441722247823500AEE4A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C441852247823600AEE4A3 /* LaunchScreen.storyboard in Resources */,
+				02C441B922479BD600AEE4A3 /* syhud_success@2x.png in Resources */,
+				02C441822247823600AEE4A3 /* Assets.xcassets in Resources */,
+				02C4417D2247823500AEE4A3 /* Main.storyboard in Resources */,
+				02C441BB22479BF100AEE4A3 /* syhud_info@2x.png in Resources */,
+				02C441B722479BC600AEE4A3 /* syhud_error@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02C441892247823600AEE4A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02C441942247823600AEE4A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B4729817CF0EC1D9D351825B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SYProgressHUD.Swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0C80180DB291C1F7421CE16 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SYProgressHUD.Swift/Pods-SYProgressHUD.Swift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SYProgressHUD.Swift/Pods-SYProgressHUD.Swift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SYProgressHUD.Swift/Pods-SYProgressHUD.Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02C441702247823500AEE4A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C4417A2247823500AEE4A3 /* ViewController.swift in Sources */,
+				02C441802247823500AEE4A3 /* SYProgressHUD_Swift.xcdatamodeld in Sources */,
+				02C441782247823500AEE4A3 /* AppDelegate.swift in Sources */,
+				02C441AA2247832C00AEE4A3 /* SYProgressHUD.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02C441872247823600AEE4A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C441902247823600AEE4A3 /* SYProgressHUD_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02C441922247823600AEE4A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C4419B2247823600AEE4A3 /* SYProgressHUD_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02C4418D2247823600AEE4A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02C441732247823500AEE4A3 /* SYProgressHUD.Swift */;
+			targetProxy = 02C4418C2247823600AEE4A3 /* PBXContainerItemProxy */;
+		};
+		02C441982247823600AEE4A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02C441732247823500AEE4A3 /* SYProgressHUD.Swift */;
+			targetProxy = 02C441972247823600AEE4A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02C4417B2247823500AEE4A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02C4417C2247823500AEE4A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		02C441832247823600AEE4A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02C441842247823600AEE4A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02C4419D2247823600AEE4A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		02C4419E2247823600AEE4A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02C441A02247823600AEE4A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3B531B1E382B32CF540E16F /* Pods-SYProgressHUD.Swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SYProgressHUD.Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sauchye.SYProgressHUD.Swift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02C441A12247823600AEE4A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3A65DB126949B7F2256C4FA /* Pods-SYProgressHUD.Swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SYProgressHUD.Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sauchye.SYProgressHUD.Swift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		02C441A32247823600AEE4A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SYProgressHUD.SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sauchye.SYProgressHUD-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SYProgressHUD.Swift.app/SYProgressHUD.Swift";
+			};
+			name = Debug;
+		};
+		02C441A42247823600AEE4A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SYProgressHUD.SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sauchye.SYProgressHUD-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SYProgressHUD.Swift.app/SYProgressHUD.Swift";
+			};
+			name = Release;
+		};
+		02C441A62247823600AEE4A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SYProgressHUD.SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sauchye.SYProgressHUD-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SYProgressHUD.Swift;
+			};
+			name = Debug;
+		};
+		02C441A72247823600AEE4A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SYProgressHUD.SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sauchye.SYProgressHUD-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SYProgressHUD.Swift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02C4416F2247823500AEE4A3 /* Build configuration list for PBXProject "SYProgressHUD.Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02C4419D2247823600AEE4A3 /* Debug */,
+				02C4419E2247823600AEE4A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02C4419F2247823600AEE4A3 /* Build configuration list for PBXNativeTarget "SYProgressHUD.Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02C441A02247823600AEE4A3 /* Debug */,
+				02C441A12247823600AEE4A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02C441A22247823600AEE4A3 /* Build configuration list for PBXNativeTarget "SYProgressHUD.SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02C441A32247823600AEE4A3 /* Debug */,
+				02C441A42247823600AEE4A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02C441A52247823600AEE4A3 /* Build configuration list for PBXNativeTarget "SYProgressHUD.SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02C441A62247823600AEE4A3 /* Debug */,
+				02C441A72247823600AEE4A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		02C4417E2247823500AEE4A3 /* SYProgressHUD_Swift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				02C4417F2247823500AEE4A3 /* SYProgressHUD_Swift.xcdatamodel */,
+			);
+			currentVersion = 02C4417F2247823500AEE4A3 /* SYProgressHUD_Swift.xcdatamodel */;
+			path = SYProgressHUD_Swift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 02C4416C2247823500AEE4A3 /* Project object */;
+}
