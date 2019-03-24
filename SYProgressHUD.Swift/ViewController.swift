@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func customAction(_ sender: UIButton) {
-        SYProgressHUD.showCustomView(icon: "nav_back_icon", text: "123123123")
+        SYProgressHUD.showCustomView(icon: "nav_back_icon", text: "just test")
     }
     
     
@@ -33,7 +33,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func errorAction(_ sender: UIButton) {
-        SYProgressHUD.showErrorHUD(text: "failed...")
+        SYProgressHUD.showErrorHUD(text: "failed info")
     }
 }
 

@@ -10,6 +10,6 @@ s.license      = { :type => "MIT", :file => "LICENSE" }
 s.author             = { "sauchye" => "sauchyer@gmail.com" }
 s.platform     = :ios, "8.0"
 s.source       = { :git => "https://github.com/sauchye/SYProgressHUD.Swift.git", :tag => s.version }
-s.source_files  = "Classes", "SYProgressHUD/SYProgressHUD/Classes/**/*.{h,m}"
+s.source_files  = "Classes", "SYProgressHUD.Swift/SYProgressHUD.Swift/Classes/**/*.{h,m}"
 s.requires_arc = true
 end
