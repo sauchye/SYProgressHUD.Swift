@@ -15,10 +15,10 @@
 		02C441852247823600AEE4A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02C441832247823600AEE4A3 /* LaunchScreen.storyboard */; };
 		02C441902247823600AEE4A3 /* SYProgressHUD_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C4418F2247823600AEE4A3 /* SYProgressHUD_SwiftTests.swift */; };
 		02C4419B2247823600AEE4A3 /* SYProgressHUD_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C4419A2247823600AEE4A3 /* SYProgressHUD_SwiftUITests.swift */; };
-		02C441CB2247A69A00AEE4A3 /* SYProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C441C62247A69A00AEE4A3 /* SYProgressHUD.swift */; };
-		02C441CC2247A69A00AEE4A3 /* syhud_info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02C441C82247A69A00AEE4A3 /* syhud_info@2x.png */; };
-		02C441CD2247A69A00AEE4A3 /* syhud_error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02C441C92247A69A00AEE4A3 /* syhud_error@2x.png */; };
-		02C441CE2247A69A00AEE4A3 /* syhud_success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02C441CA2247A69A00AEE4A3 /* syhud_success@2x.png */; };
+		02C441D52247AA1F00AEE4A3 /* SYProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C441D02247AA1F00AEE4A3 /* SYProgressHUD.swift */; };
+		02C441D62247AA1F00AEE4A3 /* syhud_info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02C441D22247AA1F00AEE4A3 /* syhud_info@2x.png */; };
+		02C441D72247AA1F00AEE4A3 /* syhud_error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02C441D32247AA1F00AEE4A3 /* syhud_error@2x.png */; };
+		02C441D82247AA1F00AEE4A3 /* syhud_success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02C441D42247AA1F00AEE4A3 /* syhud_success@2x.png */; };
 		46DBDE1D9AE603A0433CD19D /* Pods_SYProgressHUD_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D32936811B14483CCD6CC8 /* Pods_SYProgressHUD_Swift.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,10 +54,10 @@
 		02C441962247823600AEE4A3 /* SYProgressHUD.SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYProgressHUD.SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02C4419A2247823600AEE4A3 /* SYProgressHUD_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SYProgressHUD_SwiftUITests.swift; sourceTree = "<group>"; };
 		02C4419C2247823600AEE4A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		02C441C62247A69A00AEE4A3 /* SYProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SYProgressHUD.swift; sourceTree = "<group>"; };
-		02C441C82247A69A00AEE4A3 /* syhud_info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "syhud_info@2x.png"; sourceTree = "<group>"; };
-		02C441C92247A69A00AEE4A3 /* syhud_error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "syhud_error@2x.png"; sourceTree = "<group>"; };
-		02C441CA2247A69A00AEE4A3 /* syhud_success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "syhud_success@2x.png"; sourceTree = "<group>"; };
+		02C441D02247AA1F00AEE4A3 /* SYProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SYProgressHUD.swift; sourceTree = "<group>"; };
+		02C441D22247AA1F00AEE4A3 /* syhud_info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "syhud_info@2x.png"; sourceTree = "<group>"; };
+		02C441D32247AA1F00AEE4A3 /* syhud_error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "syhud_error@2x.png"; sourceTree = "<group>"; };
+		02C441D42247AA1F00AEE4A3 /* syhud_success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "syhud_success@2x.png"; sourceTree = "<group>"; };
 		B6D32936811B14483CCD6CC8 /* Pods_SYProgressHUD_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SYProgressHUD_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3B531B1E382B32CF540E16F /* Pods-SYProgressHUD.Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYProgressHUD.Swift.debug.xcconfig"; path = "Target Support Files/Pods-SYProgressHUD.Swift/Pods-SYProgressHUD.Swift.debug.xcconfig"; sourceTree = "<group>"; };
 		F3A65DB126949B7F2256C4FA /* Pods-SYProgressHUD.Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYProgressHUD.Swift.release.xcconfig"; path = "Target Support Files/Pods-SYProgressHUD.Swift/Pods-SYProgressHUD.Swift.release.xcconfig"; sourceTree = "<group>"; };
@@ -114,7 +114,7 @@
 		02C441762247823500AEE4A3 /* SYProgressHUD.Swift */ = {
 			isa = PBXGroup;
 			children = (
-				02C441C52247A69A00AEE4A3 /* Classes */,
+				02C441CF2247AA1F00AEE4A3 /* SYProgressHUD */,
 				02C441772247823500AEE4A3 /* AppDelegate.swift */,
 				02C441792247823500AEE4A3 /* ViewController.swift */,
 				02C4417B2247823500AEE4A3 /* Main.storyboard */,
@@ -144,21 +144,21 @@
 			path = SYProgressHUD.SwiftUITests;
 			sourceTree = "<group>";
 		};
-		02C441C52247A69A00AEE4A3 /* Classes */ = {
+		02C441CF2247AA1F00AEE4A3 /* SYProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				02C441C72247A69A00AEE4A3 /* Resource */,
-				02C441C62247A69A00AEE4A3 /* SYProgressHUD.swift */,
+				02C441D12247AA1F00AEE4A3 /* Resource */,
+				02C441D02247AA1F00AEE4A3 /* SYProgressHUD.swift */,
 			);
-			path = Classes;
+			path = SYProgressHUD;
 			sourceTree = "<group>";
 		};
-		02C441C72247A69A00AEE4A3 /* Resource */ = {
+		02C441D12247AA1F00AEE4A3 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				02C441C82247A69A00AEE4A3 /* syhud_info@2x.png */,
-				02C441C92247A69A00AEE4A3 /* syhud_error@2x.png */,
-				02C441CA2247A69A00AEE4A3 /* syhud_success@2x.png */,
+				02C441D22247AA1F00AEE4A3 /* syhud_info@2x.png */,
+				02C441D32247AA1F00AEE4A3 /* syhud_error@2x.png */,
+				02C441D42247AA1F00AEE4A3 /* syhud_success@2x.png */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -286,11 +286,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02C441CE2247A69A00AEE4A3 /* syhud_success@2x.png in Resources */,
+				02C441D82247AA1F00AEE4A3 /* syhud_success@2x.png in Resources */,
 				02C441852247823600AEE4A3 /* LaunchScreen.storyboard in Resources */,
 				02C441822247823600AEE4A3 /* Assets.xcassets in Resources */,
-				02C441CC2247A69A00AEE4A3 /* syhud_info@2x.png in Resources */,
-				02C441CD2247A69A00AEE4A3 /* syhud_error@2x.png in Resources */,
+				02C441D62247AA1F00AEE4A3 /* syhud_info@2x.png in Resources */,
+				02C441D72247AA1F00AEE4A3 /* syhud_error@2x.png in Resources */,
 				02C4417D2247823500AEE4A3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,7 +358,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02C441CB2247A69A00AEE4A3 /* SYProgressHUD.swift in Sources */,
+				02C441D52247AA1F00AEE4A3 /* SYProgressHUD.swift in Sources */,
 				02C4417A2247823500AEE4A3 /* ViewController.swift in Sources */,
 				02C441802247823500AEE4A3 /* SYProgressHUD_Swift.xcdatamodeld in Sources */,
 				02C441782247823500AEE4A3 /* AppDelegate.swift in Sources */,
