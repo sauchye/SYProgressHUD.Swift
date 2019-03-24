@@ -10,15 +10,14 @@
 
 import MBProgressHUD
 
-enum SYProgressHUDStatus {
-    case info
-    case success
-    case error
-}
+//enum SYProgressHUDStatus {
+//    case info
+//    case success
+//    case error
+//}
 
 struct CommonHUDConfig {
     let delyedTime   = 2.0
-    let minHudWidth  = 120
     let hudFontSize  = 14
 }
 
@@ -36,10 +35,12 @@ class SYProgressHUD: MBProgressHUD {
     }
     
     // MARK: showStatusView
-    private class func showStatusView(status: SYProgressHUDStatus, icon: String, text: String) {
+    private class func showStatusView(icon: String, text: String) {
         let hud = self.showHUDAddView(view: (kKeyWindow ?? nil)!, mode: .customView, text: text)
         let image = UIImage.init(named: icon)
-        hud.customView = UIImageView.init(image: image)
+        if image != nil {
+            hud.customView = UIImageView.init(image: image)
+        }
         hud.hide(animated: true, afterDelay: CommonHUDConfig.init().delyedTime)
     }
 
@@ -57,24 +58,21 @@ class SYProgressHUD: MBProgressHUD {
     
     // MARK: showCustomView
     class func showCustomView(icon: String, text: String) {
-        let hud = self.showHUDAddView(view: (kKeyWindow ?? nil)!, mode: .customView, text: text)
-        let image = UIImage.init(named: icon)
-        hud.customView = UIImageView.init(image: image)
-        hud.hide(animated: true, afterDelay: CommonHUDConfig.init().delyedTime)
+        self.showStatusView(icon: icon, text: text)
     }
     
     // MARK: showInfoHUD
     class func showInfoHUD(text: String) {
-        self.showStatusView(status: .info, icon: "syhud_info", text: text)
+        self.showStatusView(icon: "syhud_info", text: text)
     }
     
     // MARK: showSuccessHUD
     class func showSuccessHUD(text: String) {
-        self.showStatusView(status: .info, icon: "syhud_success", text: text)
+        self.showStatusView(icon: "syhud_success", text: text)
     }
 
     // MARK: showSuccessHUD
     class func showErrorHUD(text: String) {
-        self.showStatusView(status: .error, icon: "syhud_error", text: text)
+        self.showStatusView(icon: "syhud_error", text: text)
     }
 }

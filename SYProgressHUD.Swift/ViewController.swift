@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func customAction(_ sender: UIButton) {
-        SYProgressHUD.showCustomView(icon: "nav_back_icon", text: "just test")
+        SYProgressHUD.showCustomView(icon: "custom_icon", text: "custom icon")
     }
     
     
