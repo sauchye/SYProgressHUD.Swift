@@ -6,8 +6,6 @@ Base in  MBProgressHUD OC in [SYProgressHUD](https://github.com/sauchye/SYHUDVie
 
 ### Example, easy use:
 
-``pod SYProgressHUD.Swift  ``
-
 ```swift
 //loading
 SYProgressHUD.showLoadingAddView(view: view)
